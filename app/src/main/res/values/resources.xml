@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipos">
+        <item>Piso</item>
+        <item>Casa</item>
+        <item>Chalet</item>
+        <item>Cortijo</item>
+        <item>Ático</item>
+    </string-array>
+</resources>

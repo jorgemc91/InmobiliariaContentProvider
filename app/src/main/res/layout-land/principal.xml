@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:name="com.example.jorge.inmobiliaria.FragmentoLista"
+        android:id="@+id/fragment"
+        tools:layout="@layout/fragment_fragmento_lista" />
+
+    <fragment
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:name="com.example.jorge.inmobiliaria.FragmentoDetalle"
+        android:id="@+id/FDetalle"
+        android:layout_gravity="center_vertical"
+        tools:layout="@layout/fragment_fragmento_detalle" />
+
+</LinearLayout>
